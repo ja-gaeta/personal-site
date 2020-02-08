@@ -6,9 +6,12 @@
   "scripts": {
     "server": "cd server && npm run start",
     "develop": "cd frontend && gatsby clean && gatsby develop",
-    "start": "npm run server & npm run develop"
+    "start": "concurrently \"npm run server\" \"npm run develop\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
 }
