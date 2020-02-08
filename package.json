@@ -1,0 +1,14 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run start",
+    "develop": "cd frontend && gatsby clean && gatsby develop",
+    "start": "npm run server & npm run develop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
