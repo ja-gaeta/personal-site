@@ -6,7 +6,10 @@
   "scripts": {
     "server": "cd server && npm run start",
     "develop": "cd frontend && gatsby clean && gatsby develop",
-    "start": "concurrently \"npm run server\" \"npm run develop\""
+    "start": "concurrently \"npm run server\" \"npm run develop\"",
+    "clean": "cd frontend && gatsby clean",
+    "setup": "cd frontend && gatsby clean && gatsby build",
+    "build": "concurrently \"npm run server\" \"npm run setup\""
   },
   "keywords": [],
   "author": "",
