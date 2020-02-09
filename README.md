@@ -6,7 +6,7 @@ This project was part of my training in the Gatsby Tutorial and Projects Course 
 
 **Note**:
 
-On Unix Systems, processes in parallel should be:
+On Unix Systems, scripts with processes in parallel should be:
 
 ```json
 "start": "npm run server & npm run develop",
